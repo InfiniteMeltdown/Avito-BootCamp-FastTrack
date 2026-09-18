@@ -11,6 +11,9 @@ dependencies = [
     "ipykernel>=7.3.0",
     "pandas>=3.0.6",
     "paddleocr>=3.7.0",
+    "numpy>=2.3.5",
+    "pillow>=12.3.0",
+    "opencv-contrib-python==4.10.0.84",
 ]
 
 [[tool.uv.index]]
