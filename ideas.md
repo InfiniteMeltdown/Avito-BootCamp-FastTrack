@@ -15,4 +15,6 @@ or
 Just use some backbone, and train linear probe or SVM on top of it
 
 # Unsupervised
-idk
+1. Extract stuff via backbone
+2. Reduce dimensionality
+3. Classify
