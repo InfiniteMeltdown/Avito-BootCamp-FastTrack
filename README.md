@@ -13,7 +13,7 @@
 1. `uv run .\src\hiertext_benchmark\hiertext.py download`
 2. `uv run .\src\hiertext_benchmark\hiertext.py build`
 3. `uv run .\src\hiertext_benchmark\check_hiertext.py`
-4. Запустить плитки из сегмента с валидацией в `src/paddleocr.ipynb`
+4. Запустить плитки из сегмента Benchmark в `src/paddleocr.ipynb`
 
 # Решение
 Сначала пытался задать псевдо-лейблы через SigLIP2 ViT-B/16 и ViT-L/16, но при обычном отсмотре оставалось слишком много ошибок.
