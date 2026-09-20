@@ -4,7 +4,8 @@
 # Запуск
 Проект делался с `uv`, так что показывать буду на нем. Для обычного python env в целом инструкции аналогичные (через pyproject.toml):
 1. `uv sync`
-2. Запускаем `src/paddleocr.ipynb`, получаем сабмит `labels_paddleensemble.csv` в корне проекта
+2. Распаковываем архив задачи с тестовыми изображениями в корень проекта
+3. Запускаем `src/paddleocr.ipynb`, получаем сабмит `labels_paddleensemble.csv` в корне проекта
 
 Решения дополнительно валидировались на HierText датасете, для его получения:
 1. `uv run .\src\hiertext_benchmark\hiertext.py download`
