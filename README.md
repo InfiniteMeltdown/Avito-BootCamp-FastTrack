@@ -3,9 +3,11 @@
 
 # Запуск
 Проект делался с `uv`, так что показывать буду на нем. Для обычного python env в целом инструкции аналогичные (через pyproject.toml):
-1. `uv sync`
-2. Распаковываем архив задачи с тестовыми изображениями в корень проекта
-3. Запускаем `src/paddleocr.ipynb`, получаем сабмит `labels_paddleensemble.csv` в корне проекта
+1. `git clone https://github.com/InfiniteMeltdown/Avito-BootCamp-FastTrack`
+2. `cd Avito-BootCamp-FastTrack`
+3. `uv sync`
+4. Распаковываем архив задачи с тестовыми изображениями и `sample_submission.csv` в корень проекта
+5. Запускаем `src/paddleocr.ipynb`, получаем сабмит `labels_paddleensemble.csv` в корне проекта
 
 Решения дополнительно валидировались на HierText датасете, для его получения:
 1. `uv run .\src\hiertext_benchmark\hiertext.py download`
